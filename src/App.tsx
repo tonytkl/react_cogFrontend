@@ -12,6 +12,7 @@ import ProfilePage from "./pages/profilePage";
 import SavedPage from "./pages/savedPage";
 import ResearchPage from "./pages/researchPage";
 import ScientistsPage from "./pages/scientistsPage";
+import AdPanel from "./components/layout/ads/adPanel";
 
 const SDG = "sdg1";
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/research" element={<ResearchPage />} />
             <Route path="/scientists" element={<ScientistsPage />} />
           </Routes>
+          <AdPanel />
         </div>
       </div>
     </div>

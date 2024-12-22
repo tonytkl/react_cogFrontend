@@ -35,7 +35,7 @@ const Sidebar = ({ sdg }: Props) => {
   const bgColor = getSdgColor(sdg, "100");
   return (
     <div
-      className={`flex min-h-screen flex-col space-y-1 ${bgColor} p-1 lg:w-48 lg:p-4`}
+      className={`flex min-h-screen flex-col space-y-1 ${bgColor} p-1 lg:w-2/12 lg:p-4`}
     >
       <SidebarItem
         title="Home"
